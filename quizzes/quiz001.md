@@ -1,9 +1,7 @@
 # quiz001
 
 ## test
-```.py
-なんか書きます
-```
+![](images/quiz001.jpg)<br>
 
 ## Soluition Overview
-![](quiz006.jpg)
+
