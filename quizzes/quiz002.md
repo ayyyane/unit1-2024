@@ -15,7 +15,7 @@ def check_20(num1:int,num2: int) -> bool:
   else:
     return False
 
-## evidence
+# evidence
 <img width="902" alt="quiz002 e" src="https://github.com/ayyyane/unit1-2024/assets/142702159/3330f90b-d435-4749-87e0-bc131b433f3b">
 *fig.2* ** screenshot of PCE
 
