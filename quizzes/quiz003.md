@@ -22,7 +22,7 @@ def convert_protein(in_protein:str)-> str:
       return "Error: unknown letter in protein string"
 ```
 
-# check if it works:
+#### check if it works:
 print(convert_protein("A"))
 print(convert_protein("G"))
 print(convert_protein("C"))
