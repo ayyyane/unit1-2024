@@ -27,5 +27,6 @@ print(black_box("(codin) + (game) = (codingame)"))
 ```
 
 ## Evidence
+<img width="917" alt="quiz001 e" src="https://github.com/ayyyane/unit1-2024/assets/142702159/fac8eed1-119a-4bfb-84c4-4c33c0667318">
 
 *fig.2 **screenshot of output in console
