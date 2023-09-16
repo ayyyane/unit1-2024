@@ -15,7 +15,7 @@ def check_fators(num:int)->int:
     if factors == [1,num]:
       factors.append('True')
     else:
-      factor.append('False')
+      factors.append('False')
     return factors
 
 # check if function works:
