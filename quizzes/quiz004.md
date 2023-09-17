@@ -27,3 +27,5 @@ print(check_factors(6))
 ```
 
 # evidence
+<img width="915" alt="quiz004_e" src="https://github.com/ayyyane/unit1-2024/assets/142702159/d784bbde-76b0-45bf-a06f-5f864bd292b2">
+
