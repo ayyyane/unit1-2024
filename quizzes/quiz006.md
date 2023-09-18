@@ -7,15 +7,14 @@
 ## solution
 
 '''.py
-
-
-
 def room_checker(num:int)->str:
   for num in range(1,101):
     if num/10 == 0:
       floor = num//10
     else:
       floor = num//10+1
+
+
 print(f"{num}-Room {Floor}F{num%10:02d}")
 
 
