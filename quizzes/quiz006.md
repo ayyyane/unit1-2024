@@ -1,7 +1,8 @@
 # quiz006
 
 ## prompt
-![quiz006_a](https://github.com/ayyyane/unit1-2024/assets/142702159/35e4cf5b-27ea-4b0d-ad40-58586435568f)
+<img width="1470" alt="quiz006" src="https://github.com/ayyyane/unit1-2024/assets/142702159/63431e86-5076-469d-932c-aaa30dd9168f">
+
 
 ## solution
 
@@ -14,3 +15,4 @@ def room_checker(num:int)->str:
     else:
       floor = num//10+1
 print(f"{num}-Room {Floor}F{num%10:02d}")
+```
