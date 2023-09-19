@@ -95,6 +95,11 @@ def simple_login(user:str, password:str)->bool:
 
     return output
 
+
+
+# logo
+[coin.webp.zip](https://github.com/ayyyane/unit1-2024/files/12656468/coin.webp.zip)
+
 attempts = 3
 name = input("enter your name")
 password = input("enter your password")
@@ -104,7 +109,6 @@ while result ==False and attempts>0:
     password = intput("[Error] please enter your password")
     result = try_login(name = name, password = password)
 attempts -= 1
-
 if result == False:
     print("you are not authorized. existing")
     exit(1)
