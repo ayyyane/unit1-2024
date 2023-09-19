@@ -1,4 +1,5 @@
 # quiz 010
+<img width="1470" alt="quiz010" src="https://github.com/ayyyane/unit1-2024/assets/142702159/1ab6bdca-be4a-4f61-81a9-e99a4dfb888f">
 
 # solution
 ```.py
