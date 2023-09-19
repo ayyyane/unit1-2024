@@ -96,9 +96,8 @@ def simple_login(user:str, password:str)->bool:
     return output
 
 
-
-# logo
-print([coin.webp.zip](https://github.com/ayyyane/unit1-2024/files/12656468/coin.webp.zip))
+3logo
+cv2.imread( coin[,flags])
 
 attempts = 3
 name = input("enter your name")
