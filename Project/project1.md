@@ -98,7 +98,7 @@ def simple_login(user:str, password:str)->bool:
 
 
 # logo
-[coin.webp.zip](https://github.com/ayyyane/unit1-2024/files/12656468/coin.webp.zip)
+print([coin.webp.zip](https://github.com/ayyyane/unit1-2024/files/12656468/coin.webp.zip))
 
 attempts = 3
 name = input("enter your name")
