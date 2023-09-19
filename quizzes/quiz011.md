@@ -13,10 +13,10 @@ def mystery_box(a:int,b:int)->int:
   ans = a*b-(a-b)
   return ans
 
-print(mystery_box(a=,b=))
-print(mystery_box(a=,b=))
-print(mystery_box(a=,b=))
-print(mystery_box(a=,b=))
+print(mystery_box(a=2,b=6))
+print(mystery_box(a=4,b=10))
+print(mystery_box(a=10,b=10))
+print(mystery_box(a=70,b=50))
 
 ```
 # evidence
