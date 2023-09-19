@@ -96,7 +96,7 @@ def simple_login(user:str, password:str)->bool:
     return output
 
 
-3logo
+#logo
 cv2.imread( coin[,flags])
 
 attempts = 3
