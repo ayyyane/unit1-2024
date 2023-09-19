@@ -53,7 +53,7 @@ Justify the tools/structure of your solution
 3. The electronic ledger allows to enter, withdraw and record transactions.
 4. This software shows a time graph  of the value of the coin.
 5. The software shows a graph of profit.
-6. The software shows a chart of the highest rate and the lowest rate.
+6. The software shows the highest rate and the lowest rate.
 
 # Criteria B: Design
 
@@ -95,5 +95,18 @@ def simple_login(user:str, password:str)->bool:
 
     return output
 
+attempts = 3
+name = input("enter your name")
+password = input("enter your password")
+result = try_login(name = name, password = password)
+while result ==False and attempts>0:
+    name = input("[Error] please enter your username")
+    password = intput("[Error] please enter your password")
+    result = try_login(name = name, password = password)
+attempts -= 1
+
+if result == False:
+    print("you are not authorized. existing")
+    exit(1)
 
 ```
