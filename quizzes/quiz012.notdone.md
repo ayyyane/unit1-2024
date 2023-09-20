@@ -11,13 +11,8 @@ def mystery_box2(a:int, b:int)->int:
   ans = a**2 + b
   return ans
 
-for a,b in [[]]:
-
-print(mystery_box2(a=37,b=3))
-print(mystery_box2(a=58,b=2))
-print(mystery_box2(a=60,b=5))
-print(mystery_box2(a=10,b=4))
-
+for a,b in [[37,3],[58,2],[60,5],[10,4]]:
+print(mystery_box2(a=a, b=b))
 ```
 
 # evidence
