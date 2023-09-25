@@ -95,9 +95,7 @@ def simple_login(user:str, password:str)->bool:
 
     return output
 
-
 #logo
-cv2.imread( coin[,flags])
 
 attempts = 3
 name = input("enter your name")
@@ -113,3 +111,11 @@ if result == False:
     exit(1)
 
 ```
+### basic description
+my client requires the basic description of the cyptocurrency selected. I quoted the sentences to explain what Zecash is from official website.
+
+
+Zcash is a cryptocurrency built to empower economic freedom. It is similar to Bitcoin in its design — in fact, Zcash was created from the original Bitcoin code base — but it uses a privacy technology that encrypts transaction information and allows users to shield their assets. Zcash was conceived by scientists at MIT, Johns Hopkins, and other respected academic and scientific institutions. You can buy or trade Zcash on most major exchanges, like Gemini and Coinbase.
+
+
+
