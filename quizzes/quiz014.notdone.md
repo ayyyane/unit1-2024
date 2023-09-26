@@ -10,18 +10,21 @@ def mystery_box4(given:str)-> str:
   alpha = 'abcdefghijklmnopqrstuvwxyz'
   output = " "
   for i in range(26):
-    count[i] += 1
-    count.appendent(0)
+    count.append(0)
   for letter in given:
     if letter == " ":
-      output = " "
+      output += " "
     for x in range (26):
       if letter == alpha[i]:
         count[i] += 1
-        output = str(count[i])
+        output += str(count[i])
     return output
 
-print
+print(mystery_box4("hello world"))
+print(mystery_box4("aaaaAABB"))
+print(mystery_box4("abABabAB"))
+print(mystery_box4("Create a function"))
+
 
 
 
