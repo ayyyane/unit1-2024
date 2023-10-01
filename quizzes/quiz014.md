@@ -1,6 +1,7 @@
 # quiz014
 
 ## prompt
+<img width="1470" alt="quiz014" src="https://github.com/ayyyane/unit1-2024/assets/142702159/ada5f50c-782f-4ef0-a281-bf5e0a2f92ff">
 
 ## solution
 ```.py
