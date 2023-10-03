@@ -51,9 +51,9 @@ Justify the tools/structure of your solution
 1. The electronic ledger is a text-based software (Runs in the Terminal).
 2. The electronic ledger display the basic description of the cyrptocurrency selected.
 3. The electronic ledger allows to enter, withdraw and record transactions.
-4. This software shows a time graph  of the value of the coin.
+4. This software hds sign in system.
 5. The software shows exchange in yen.
-6. The software shows the highest rate and the lowest rate.
+6. The software shows the history of the transaction.
 
 # Criteria B: Design
 
