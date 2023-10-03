@@ -52,7 +52,7 @@ Justify the tools/structure of your solution
 2. The electronic ledger display the basic description of the cyrptocurrency selected.
 3. The electronic ledger allows to enter, withdraw and record transactions.
 4. This software shows a time graph  of the value of the coin.
-5. The software shows a graph of profit.
+5. The software shows exchange in yen.
 6. The software shows the highest rate and the lowest rate.
 
 # Criteria B: Design
