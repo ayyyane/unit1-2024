@@ -63,6 +63,10 @@ I will use the software **Python3** to program my digital ledger. Python 3 is a 
 
 ## System Diagram
 
+## System Diagram
+![System diagram of this program](https://github.com/ayyyane/unit1-2024/assets/142702159/c45003e6-c05c-4ae6-80c3-1c8d7b3bcf44)
+**Fig.1 System diagram of this program**
+
 ## Flow Diagrams
 [add image]
 **Fig.1** Flow diagram for the registration syste. Note: there is some Python code in the operarions.
