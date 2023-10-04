@@ -44,15 +44,12 @@ Design statement:
 I will to design and make a **Electric Ledger/Crypto Wallet** for a client, Ms.Sato who is a local trader intersed in  the emerging market of cryptocurrencies. The project will be about **helping her get information such as history of the coin and rate, track the amount of the cryptocurrency,the transactions, and get useful statics** and is constructed using the software **Python 3.9**. It will take **3 weeks** to make and will be evaluated according to the criteria shown below.
 
 The digital coin used will be **Zcash**. Zcash was invented by a group of scientists and brought to life by Electric Coin Co. and Zooko Wilcox, a computer security specialist and original cypherpunk. The orign of Zcash is Zerocoin which is **the solution for the Bitcoin's biggest problem, safty**.
-The Zerocoin Electric Coin Company (now Electric Coin Co.) was formed in 2015 to create the protocol, and Zcash was launched in October 2016. The Zcash Foundation was formed in 2017 to further support Zcash, and in 2020, the Zcash Major Grants organization launched to help fund additional developers and community projects.
+The Zerocoin Electric Coin Company (now Electric Coin Co.) was formed in 2015 to create the protocol, and Zcash was launched in October 2016. The Zcash Foundation was formed in 2017 to further support Zcash, and in 2020, the Zcash Major Grants organization launched to help fund additional developers and community projects.("WHO CREATED ZCASH?",https://z.cash/learn/who-created-zcash/)
 
 ## Justify the tools/structure of your solution
-
 The biggest strength of Zcash is **the safty** of the coin suported by the concept of "zero-knowledge proof.". As I mentioned, the purpose of the coin is to solve the security problem. Moreover, as zcash is a decentralized virtual currency with **no central manager**,even if in the event of hacking damage, it is to recover from other networks and minimaize the damage. Therefore Zcash provids her completely safty experiecne to learn cryptocurrency.
 
 I will use the software **Python3** to program my digital ledger. Python 3 is a top choice due to its simplicity, versatility, and robust features. First and foremost, Python's easy-to-read syntax allows for the development of complex systems with fewer lines of code, making the codebase clean and manageable. Additionally, Python's object-oriented programming (OOP) capabilities allow developers to create organized and modular code structures, making it easier to manage different aspects of the system, such as user authentication, transaction processing, and account management. Python's flexibility also allows seamless integration with databases, enabling efficient storage and retrieval of customer information and transaction history.
-
-
 
 ## Success Criteria
 1. The electronic ledger is a text-based software (Runs in the Terminal).
