@@ -58,9 +58,18 @@ I will use the software **Python3** to program my digital ledger. Python 3 is a 
 
 ## System Diagram
 ![System diagram of this program](https://github.com/ayyyane/unit1-2024/assets/142702159/c45003e6-c05c-4ae6-80c3-1c8d7b3bcf44)
-**Fig.1 System diagram of this program**
+**Fig.1** System diagram of this program
 
 ## Flow Diagrams
+![IMG_0859](https://github.com/ayyyane/unit1-2024/assets/142702159/6083502d-8067-4cbb-ba2d-266c1c6d930b)
+**Fig.2** This is the flow diagram for the login system
+
+![IMG_0861](https://github.com/ayyyane/unit1-2024/assets/142702159/89636441-c1dc-48b3-8835-874128d53740)
+**Fig.3** This is the flow diagram for the sign in 
+
+![IMG_0860](https://github.com/ayyyane/unit1-2024/assets/142702159/944b8dfa-836e-489c-b784-e0c0e99e3c2f)
+**Fig.4** This is the flow diagram for the deposit system
+
 
 ## Record of Tasks
 | Task No | Planned Action                          | Planned Outcome                                                                          | Time estimate | Target completion date | Criterion |
