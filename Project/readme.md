@@ -149,15 +149,8 @@ I defined a function sign_in() that allows users to create an account with a use
 
 ```.py
 def deposit():
-    balance = 0
-    with open("savedcoin.csv","r") as f:
-        data = f.readlines()
-    for line in data:
-        date, amount = line.strip().split(',')
-        balance += int(amount)
     msg_deposit = "Enter how much would you like to deposit"
     amount = validate_int_user(msg = msg_deposit,menu = "")
-    balance += amount
     date = datetime.date.today()
     with open("savedcoin.csv","a")as f:
         line = f"{date},{amount}\n"
@@ -165,7 +158,13 @@ def deposit():
         print("saved")
 
 ```
-I defined a function deposit() that handles deposit operations for the system. The code initializes the balance variable to zero and reads the transaction history from a CSV file called "savedcoin.csv". It then iterates through the file lines, parsing the dates and amounts of previous transactions and updating the balance variable accordingly. The user is prompted to input the amount they want to deposit, validated by the validate_int_user() function. The deposited amount is added to the existing balance, and the current date along with the deposit amount is written back to the "savedcoin.csv" file, indicating a successful transaction. This code allows users to deposit funds into their account, updating their balance and transaction history.
+I defined a function called deposit(). When executed, the program starts by displaying a message asking the user to input how much money they would like to deposit. The validate_int_user() function, which is presumably defined elsewhere, is used to ensure that the user's input is a valid integer. After validating the input, the current date is obtained using the datetime.date.today() function.
+
+The code then opens a CSV file named "savedcoin.csv" in append mode ('a'). It creates a string line containing the current date and the validated deposit amount, separated by a comma and followed by a newline character. This line is written to the CSV file, effectively saving the deposit information. Finally, the program prints "saved" to indicate that the deposit operation has been successfully recorded. Essentially, this code snippet allows users to input a deposit amount, records it along with the current date in a CSV file, providing a basic deposit functionality for a financial system.
+
+
+
+
 
 ## Withdraw
 
