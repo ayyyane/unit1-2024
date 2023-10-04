@@ -77,52 +77,14 @@ I will use the software **Python3** to program my digital ledger. Python 3 is a 
 
 
 # Criteria C: Development
+## Techiques Used:
+
+1. Functions
+2. For/While loops
+3. If/then/else statements
+4. List Comprehinsion
+5. Import csv,datetime
+
 ## Login System
-My client requires a system to protect the private data. I thought about using a login system to accomplish this requirement using a if condition and the open command to work with a csv file. 
-in the The flow diagram for programi shown in　**Figure 1**first line of the code I am defining a function called try_login with two inputs, name and password both are type string The output
-is boolean because I only need a True if the user an password exist in the database file.
 
-```.py
-def simple_login(user:str, password:str)->bool:
-    '''
-    Simple authentication, needs fle user.csv
-    :param user: string
-    :param password: string
-    :return: True/False if user is in database
-    '''
-    with open("user.csv") as file:
-        database = file.readlines()
-    output = False
-    for line in database:
-        line_cleaned = line.strip() #remove \n
-        user_pass = line_cleaned.split(",")
-        if user == user_pass[0] and password == user_pass[1]:
-            output = True
-            break
-
-    return output
-
-
-attempts = 3
-name = input("enter your name")
-password = input("enter your password")
-result = try_login(name = name, password = password)
-while result ==False and attempts>0:
-    name = input("[Error] please enter your username")
-    password = intput("[Error] please enter your password")
-    result = try_login(name = name, password = password)
-attempts -= 1
-if result == False:
-    print("you are not authorized. existing")
-    exit(1)
-
-```
-### basic description
-my client requires the basic description of the cyptocurrency selected. I quoted the sentences to explain what Zecash is from official website.
-
-
-Zcash is a cryptocurrency built to empower economic freedom. It is similar to Bitcoin in its design — in fact, Zcash was created from the original Bitcoin code base — but it uses a privacy technology that encrypts transaction information and allows users to shield their assets. Zcash was conceived by scientists at MIT, Johns Hopkins, and other respected academic and scientific institutions. You can buy or trade Zcash on most major exchanges, like Gemini and Coinbase.
-
-
-## Video of the Program
-
+   
