@@ -125,8 +125,45 @@ The code first attempts to match the entered username and password with the data
 
 If the user fails to log in after the specified attempts, the code prints an error message stating that the user is not authorized and exits the program (exit(1)). This code simulates a basic login system where users have limited attempts to provide correct credentials, enhancing security and preventing unauthorized access.
 
+## sign in system
 
+```.py
+def sign_in():
+    name = input("Enter your name")
+    with open("database.csv","r") as f:
+        existing_username = [line.split(",")[0].strip() for line in f.readlines()]
+        while name in existing_username:
+            print("This username is already used, please enter another one.")
+            name = input("Enter different user name.")
 
+    password = input("Set your password")
+    with open("database.csv","a") as myfile:
+        myfile.writelines(f"\n{name},{password}")
+        print("welcome")
 
+```
+
+I defined a function sign_in() that allows users to create an account with a username and password. The user is prompted to input their desired username. The code reads existing usernames from a CSV file named "database.csv" and checks if the entered username already exists. If it does, the user is informed, and they are prompted to enter a different username. Once a username is provided, the user sets their password. The username and password are then appended as a new line in the "database.csv" file. Finally, a welcome message is printed, indicating a successful account creation process. 
+
+## Deposit
+
+```.py
+def deposit():
+    balance = 0
+    with open("savedcoin.csv","r") as f:
+        data = f.readlines()
+    for line in data:
+        date, amount = line.strip().split(',')
+        balance += int(amount)
+    msg_deposit = "Enter how much would you like to deposit"
+    amount = validate_int_user(msg = msg_deposit,menu = "")
+    balance += amount
+    date = datetime.date.today()
+    with open("savedcoin.csv","a")as f:
+        line = f"{date},{amount}\n"
+        f.writelines(line)
+        print("saved")
+
+```
 
    
