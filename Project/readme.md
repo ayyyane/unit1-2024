@@ -20,7 +20,7 @@ An example of the data stored is
 ## Proposed Solution
 
 Design statement:
-I will to design and make a **Electric Ledger/Crypto Wallet** for a client, Ms.Sato who is a local trader intersed in  the emerging market of cryptocurrencies. The project will be about **helping her get information such as history of the coin and rate, track the amount of the cryptocurrency,the transactions, and get useful statics** and is constructed using the software **Python 3.9**. It will take **3 weeks** to make and will be evaluated according to the criteria shown below.
+I will to design and make a **Electric Ledger/Crypto Wallet** for a client, Ms.Sato who is a local trader intersed in  the emerging market of cryptocurrencies. The project will be about **helping her get information such as history of the coin and rate, track the amount of the cryptocurrency,the transactions, and get useful statics** and is constructed using the software **Python 3.10.7**. It will take **3 weeks** to make and will be evaluated according to the criteria shown below.
 
 The digital coin used will be **Zcash**. Zcash was invented by a group of scientists and brought to life by Electric Coin Co. and Zooko Wilcox, a computer security specialist and original cypherpunk. The orign of Zcash is Zerocoin which is **the solution for the Bitcoin's biggest problem, safty**.
 The Zerocoin Electric Coin Company (now Electric Coin Co.) was formed in 2015 to create the protocol, and Zcash was launched in October 2016. The Zcash Foundation was formed in 2017 to further support Zcash, and in 2020, the Zcash Major Grants organization launched to help fund additional developers and community projects.("WHO CREATED ZCASH?",https://z.cash/learn/who-created-zcash/)
@@ -47,8 +47,6 @@ I will use the software **Python3** to program my digital ledger. Python 3 is a 
 **Fig.1 System diagram of this program**
 
 ## Flow Diagrams
-[add image]
-**Fig.1** Flow diagram for the registration syste. Note: there is some Python code in the operarions.
 
 ## Record of Tasks
 | Task No | Planned Action                          | Planned Outcome                                                                          | Time estimate | Target completion date | Criterion |
@@ -83,7 +81,6 @@ def simple_login(user:str, password:str)->bool:
 
     return output
 
-#logo
 
 attempts = 3
 name = input("enter your name")
