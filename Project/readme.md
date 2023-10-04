@@ -203,3 +203,58 @@ def show_balance():
 
     print(f"Your balance is {balance}")
 ```
+
+I defined a function called show_balance which reads data from a file named "savedcoin.csv" containing transaction records. It initializes a variable balance to 0. The code then opens the file in read mode, reads each line, splits the line into date and amount using a comma as a delimiter, and adds the integer value of the amount to the balance variable. This process calculates the total balance by summing up all the amounts from the file. Finally, it prints a message displaying the calculated balance, using an f-string to include the value of balance. When you call this function, it reads the transaction data from the file, calculates the total balance, and prints the result, providing you with an overview of your financial balance based on the recorded transactions.
+
+## Exchange
+
+```.py
+def exchange():
+    user_input = int(input("which money do you want to exchange 1 Yen 🇯🇵,2 Euro🇪🇺,3 Chinese Yuan Renminbi🇨🇳,4 British Pound🇬🇧"))
+    balance = 0
+    balance = 0
+    with open("savedcoin.csv", "r") as f:
+        data = f.readlines()
+    for line in data:
+        date, amount = line.strip().split(',')
+        balance += int(amount)
+    dollar = float(input("Please go to this site https://crypto.com/price/zcash.\n Enter the rate"))
+    if user_input == 1:
+        yen = float(input("Please go to this site https://www.xe.com/currencyconverter/convert/?Amount=1&From=USD&To=JPY.\n Enter the rate "))
+        amount = (balance*dollar*yen)
+        print(f"You have {amount}yen")
+    if user_input == 2:
+        Euro = float(input("Please go to this site https://www.xe.com/currencyconverter/convert/?Amount=1&From=USD&To=EUR \n Enter the rate "))
+        amount = balance*dollar*Euro
+        print(f"You have {amount}euro")
+    if user_input == 3:
+        Chinese_Yuan_Renminbi = float(input("Please go to this site https://www.xe.com/currencyconverter/convert/?Amount=1&From=USD&To=CNY\n Enter the rate "))
+        amount = balance*dollar*Chinese_Yuan_Renminbi
+        print(f"You have {amount}chinese yuan renminbi")
+    if user_input == 4:
+        British_Pound= float(input("Please go to this site https://www.xe.com/currencyconverter/convert/?Amount=1&From=USD&To=GBP \n Enter the rate "))
+        amount = balance * dollar *British_Pound
+        print(f"You have {amount}british pound")
+
+```
+I defined a function called exchange that simulates a currency exchange system. First, the user is prompted to choose a currency to exchange: Yen, Euro, Chinese Yuan Renminbi, or British Pound. The user's account balance is then calculated by reading transaction data from the "savedcoin.csv" file. For each line in the file, the code extracts the date and amount, summing up the amounts to calculate the total balance.
+
+The user is then asked to input the exchange rate, which they can obtain from specific websites provided in the prompts. Depending on the user's choice, the code calculates the equivalent amount in the selected currency by multiplying the user's balance (in dollars) with the given exchange rate. The calculated amount is then displayed to the user. (For example, if the user chose Yen, the program multiplies the balance in dollars with the Yen exchange rate to calculate the equivalent amount in Yen and prints this value.)
+
+## History of the transaction
+
+```.py
+def history():
+    with open("savedcoin.csv", "r") as file:
+        record = file.readlines()
+        i = 0
+        for line in record:
+            if i > 0:
+                line = line.split(",")
+                print(line[0] + ": " + line[1])
+            i += 1
+```
+
+
+
+
