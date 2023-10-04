@@ -255,6 +255,9 @@ def history():
             i += 1
 ```
 
+The history function allows users to view their transaction history stored in the "savedcoin.csv" file. Initially, the function opens the CSV file in read mode and reads all the lines. Inside the loop, the code iterates through each line in the file, splitting the line into elements using a comma as a delimiter. The variable i is used to skip the header row (assuming the first row contains column headers) by starting at 1. For each line in the file, it prints the date (stored in line[0]) and the transaction amount (stored in line[1]). This function provides users with a clear overview of their transaction history, displaying the date and corresponding transaction amounts in a readable format. The commented code at the beginning of the function suggests a different approach to reading and printing the entire file but is currently disabled.
+
+## video of the program
 
 
 
