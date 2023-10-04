@@ -41,8 +41,6 @@ I will use the software **Python3** to program my digital ledger. Python 3 is a 
 # Criteria B: Design
 
 ## System Diagram
-
-## System Diagram
 ![System diagram of this program](https://github.com/ayyyane/unit1-2024/assets/142702159/c45003e6-c05c-4ae6-80c3-1c8d7b3bcf44)
 **Fig.1 System diagram of this program**
 
@@ -51,11 +49,19 @@ I will use the software **Python3** to program my digital ledger. Python 3 is a 
 ## Record of Tasks
 | Task No | Planned Action                          | Planned Outcome                                                                          | Time estimate | Target completion date | Criterion |
 |---------|-----------------------------------------|------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
-| 1       | Create system diagram                   | To have a clear idea of the hardware and software requirements for the proposed solution | 10min         | Sep 24                 | B         |
-| 2       | Create flow diagram for login function  | A flow diagram and the code tested                                                       |               |                        |           |
-| 3       |                                         |                                                                                          |               |                        |           |
-# Criteria C: Development
+| 1       | Create system diagram                   | To have a clear idea of the hardware and software requirements for the proposed solution | 10min         | Sep 13                 | B         |
+| 2       | Create flow diagram for login function  | A flow diagram and the code tested                                                       | 30min         | Sep 15                 | B,C       |
+| 3       | Discuss with Client on Success Criteria | To have an understanding of what the client is expecting from the program                | 10min         | Sep 15                 | A         |
+| 4       | code the Login system, Sign in system   | To protect the information from others                                                   | 1hr           | Sep 18                 | C         |
+| 5       | Code the Menu                           | To have an items and title shown on the screen                                           | 30min         | Sep 20                 | C         |
+| 6       | Code Main Functions                     | A function base of the program                                                           | 5hr           | Oct 1                  | C         |
+| 7       | Form Test Plan                          | To have a flexible test                                                                  | 1.5hrs        | Oct 2                  | B         |
+| 8       | Draw Flow Diagrams                      | To explain the login of the code cleary                                                  | 2hrs          | Oct 4                  | B         |
+| 9       |  Testing followed Test Plan             | To allow other coders to understand the system                                           | 20min         | Oct 4                  | B         |
 
+# Test Plan
+
+# Criteria C: Development
 ## Login System
 My client requires a system to protect the private data. I thought about using a login system to accomplish this requirement using a if condition and the open command to work with a csv file. 
 in the The flow diagram for programi shown in　**Figure 1**first line of the code I am defining a function called try_login with two inputs, name and password both are type string The output
