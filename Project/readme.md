@@ -86,5 +86,47 @@ I will use the software **Python3** to program my digital ledger. Python 3 is a 
 5. Import csv,datetime
 
 ## Login System
+```.py
+def login():
+    attempts = 3
+    output = False
+    name = input("Enter your name")
+    password = input("enter your password")
+
+    with open("database.csv","r") as f:
+        database = f.readlines()
+
+    for line in database:
+        user_pass = line.strip().split(",")
+        if name == user_pass[0] and password == user_pass[1]:
+            output = True
+            print(f"welcome,{name}")
+            break
+
+    while output == False and attempts > 0:
+        name = input("Error please enter your username again")
+        password = input("Error please enter your password again")
+        attempts -= 1
+        for line in database:
+            user_pass = line.strip().split(",")
+            if name == user_pass[0] and password == user_pass[1]:
+                output = True
+                print(f"welcome,{name}")
+                break
+
+        if attempts == 0:
+            print("You are not authorized. Existing")
+            exit(1)
+```
+
+At first, I defined a function caleed login,this function has two inputs. It begins by initializing the number of login attempts allowed (attempts = 3) and a flag output to track the authentication status. The user is prompted to input their name and password. The code then reads user data from a file named "database.csv". Each line in the file is split into a list, with the first element representing the username and the second element representing the password.
+
+The code first attempts to match the entered username and password with the data in the "database.csv". If a match is found, the output flag is set to True, indicating a successful login. The program prints a welcome message and exits the loop using the break statement. If no match is found and the attempts are still available, the user is prompted to re-enter their credentials. The process repeats within a loop until the correct credentials are provided or the allowed attempts are exhausted.
+
+If the user fails to log in after the specified attempts, the code prints an error message stating that the user is not authorized and exits the program (exit(1)). This code simulates a basic login system where users have limited attempts to provide correct credentials, enhancing security and preventing unauthorized access.
+
+
+
+
 
    
