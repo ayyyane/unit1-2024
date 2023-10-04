@@ -41,7 +41,7 @@ An example of the data stored is
 ## Proposed Solution
 
 Design statement:
-I will to design and make a ———— for a client who is ———. The ——– will about ———— and is constructed using the software ———. It will take  ———- to make and will be evaluated according to the criteria ———.
+I will to design and make a Electric Ledger/Crypto Wallet for a client, Ms.Sato who is  alocal trader intersed in  the emerging market of cryptocurrencies. The ——– will about ———— and is constructed using the software ———. It will take  ———- to make and will be evaluated according to the criteria ———.
 
 ** add a description of your coin and citation **
 
