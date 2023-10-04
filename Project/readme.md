@@ -165,5 +165,41 @@ def deposit():
         print("saved")
 
 ```
+I defined a function deposit() that handles deposit operations for the system. The code initializes the balance variable to zero and reads the transaction history from a CSV file called "savedcoin.csv". It then iterates through the file lines, parsing the dates and amounts of previous transactions and updating the balance variable accordingly. The user is prompted to input the amount they want to deposit, validated by the validate_int_user() function. The deposited amount is added to the existing balance, and the current date along with the deposit amount is written back to the "savedcoin.csv" file, indicating a successful transaction. This code allows users to deposit funds into their account, updating their balance and transaction history.
 
-   
+## Withdraw
+
+```.py
+def withdraw():
+    balance = 0
+    with open("savedcoin.csv","r") as f:
+        data = f.readlines()
+    for line in data:
+        date, amount = line.strip().split(',')
+        balance += int(amount)
+    msg_withdraw = "Enter how much you would like to withdraw"
+    amount = validate_int_user(msg = msg_withdraw, menu = "")
+    date = datetime.date.today()
+    if amount > balance:
+        amount = input(f"You don't have enough coin to withdraw. Please enter less than {balance} ")
+
+    with open("savedcoin.csv","a") as f:
+        line = f"{date},-{amount}\n"
+        f.writelines(line)
+        print("withdrown")
+```
+I definesd a function withdraw() that handles withdrawal operations for the system. The code begins by initializing the balance variable to zero and reading the transaction history from a CSV file named "savedcoin.csv". It then iterates through the file lines, parsing the dates and amounts of previous transactions, and updates the balance variable accordingly. The user is prompted to input the amount they want to withdraw, which is validated using the validate_int_user() function. If the entered withdrawal amount is greater than the available balance, the user is prompted to enter a smaller amount. Once a valid withdrawal amount is provided, the current date along with the negative withdrawal amount is written back to the "savedcoin.csv" file, indicating a successful withdrawal. This code allows users to withdraw funds from their account, updating their balance and transaction history while ensuring the withdrawal does not exceed the available balance.
+
+## Show balance
+
+```.py
+def show_balance():
+    balance = 0
+    with open("savedcoin.csv", "r") as f:
+        data = f.readlines()
+    for line in data:
+        date, amount = line.strip().split(',')
+        balance += int(amount)
+
+    print(f"Your balance is {balance}")
+```
