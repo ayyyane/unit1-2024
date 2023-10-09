@@ -3,6 +3,10 @@
 ## prompt
 <img width="1470" alt="quiz014" src="https://github.com/ayyyane/unit1-2024/assets/142702159/ada5f50c-782f-4ef0-a281-bf5e0a2f92ff">
 
+## flawchart
+<img width="451" alt="Screenshot 2023-10-10 at 7 10 00" src="https://github.com/ayyyane/unit1-2024/assets/142702159/af05e1d3-8a03-4c9d-a371-bf7077c6991a">
+
+
 ## solution
 ```.py
 
