@@ -1,8 +1,10 @@
 # quiz012
 
 ## prompt
-![Uploading Screenshot 2023-10-09 at 22.45.57.png…]()
+<img width="1467" alt="Screenshot 2023-10-09 at 22 45 57" src="https://github.com/ayyyane/unit1-2024/assets/142702159/6c3f2c27-66c3-44fb-8748-ad2e0fc31116">
 
+## flawchart
+<img width="450" alt="Screenshot 2023-10-10 at 7 08 34" src="https://github.com/ayyyane/unit1-2024/assets/142702159/523d2c81-eb5b-48aa-b9a6-dcb392b068ca">
 
 
 ## solution
