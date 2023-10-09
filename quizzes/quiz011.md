@@ -3,6 +3,9 @@
 ## prompt
 <img width="1470" alt="quiz011" src="https://github.com/ayyyane/unit1-2024/assets/142702159/ddd972a1-9107-467b-a925-ad73bd8a70e4">
 
+## flawchart
+<img width="457" alt="Screenshot 2023-10-10 at 7 08 11" src="https://github.com/ayyyane/unit1-2024/assets/142702159/7ecaae0c-8049-48d2-8936-850a7fd82494">
+
 
 ## solution
 
