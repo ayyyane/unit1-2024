@@ -4,10 +4,26 @@
 <img width="1470" alt="quiz013" src="https://github.com/ayyyane/unit1-2024/assets/142702159/34cb2975-79a7-481a-8fb6-5beedbfa6c2f">
 
 ## solution
+```.py
+def mystery_box3(given:str)->str:
+    counts = []
+    alpha = 'abcdefghijklmnopqrstuvwxyz'
+    output = " "
+    for x in range(26):
+        counts.append(0)
+    for letter in given:
+        if letter == " ":
+            output += " "
+        for i in range(26):
+             if letter == alpha[i]:
+                counts[i] += 1
+                output += str(counts[i])
+    return output
 
-def mystery_box_3(given:str)-> str:
-  num = 0
-  str = ''
 
-  for letter 
+print(mystery_box3("hello world"))
+print(mystery_box3("aaaaAABB"))
+print(mystery_box3("abABabAB"))
+print(mystery_box3("Create a function"))
+```
 ## evidence
