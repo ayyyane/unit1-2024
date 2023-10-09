@@ -1,11 +1,11 @@
-<img width="450" alt="Screenshot 2023-10-10 at 7 09 02" src="https://github.com/ayyyane/unit1-2024/assets/142702159/0e4b1375-0446-4f52-a93d-170d96a60f9d"># quiz013
+
 
 ## prompt
 <img width="1470" alt="quiz013" src="https://github.com/ayyyane/unit1-2024/assets/142702159/34cb2975-79a7-481a-8fb6-5beedbfa6c2f">
 
 ## flawchart
+<img width="450" alt="Screenshot 2023-10-10 at 7 09 02" src="https://github.com/ayyyane/unit1-2024/assets/142702159/0e4b1375-0446-4f52-a93d-170d96a60f9d">
 
-![Uploading Screenshot 2023-10-10 at 7.09.02.png…]()
 
 
 ## solution
