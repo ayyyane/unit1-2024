@@ -1,7 +1,9 @@
 # quiz012
 
 ## prompt
-![Uploading quiz012.png…]()
+![Uploading Screenshot 2023-10-09 at 22.45.57.png…]()
+
+
 
 ## solution
 
