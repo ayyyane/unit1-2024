@@ -3,6 +3,9 @@
 ## prompt
 <img width="1470" alt="quiz009" src="https://github.com/ayyyane/unit1-2024/assets/142702159/1cbdb485-319e-484f-b523-8b37f22c2a5f">
 
+## flawchart
+<img width="486" alt="Screenshot 2023-10-10 at 15 40 15" src="https://github.com/ayyyane/unit1-2024/assets/142702159/cd7fa9f1-a66e-4a20-99e5-c6c4d73418a3">
+
 ## solution
 ```.py
 def powers_ten(s:int) -> str:
