@@ -3,6 +3,9 @@
 ## propmpt
 <img width="1470" alt="quiz015" src="https://github.com/ayyyane/unit1-2024/assets/142702159/60cb97c8-ef53-4b51-9512-796eaecda2ab">
 
+## flawchart
+<img width="478" alt="Screenshot 2023-10-10 at 15 40 35" src="https://github.com/ayyyane/unit1-2024/assets/142702159/47589eb1-442c-4c04-9dfb-06dd791c3a79">
+
 ## solution
 ```.py
 def opendoor(num_students:int)->int:
