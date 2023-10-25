@@ -4,7 +4,9 @@
 <img width="1470" alt="Screenshot 2023-10-25 at 16 16 13" src="https://github.com/ayyyane/unit1-2024/assets/142702159/508b3b9a-e538-470b-8951-db2d7a5aaafc">
 
 # Question a
-# flaw chart
+## flaw chart
+<img width="257" alt="Screenshot 2023-10-25 at 16 39 01" src="https://github.com/ayyyane/unit1-2024/assets/142702159/dfa5476c-3f22-407b-9c90-aafc20ee4e53">
+
 
 ## solution 
 ```.py
