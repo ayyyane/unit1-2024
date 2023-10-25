@@ -35,3 +35,5 @@ get_13tt3r("Remember the Figure Caption")
 <img width="726" alt="quiz017_e" src="https://github.com/ayyyane/unit1-2024/assets/142702159/f666aa94-b1d0-4fdb-875e-533346676225">
 
 # Question b
+![IMG_0929](https://github.com/ayyyane/unit1-2024/assets/142702159/4572aa5c-8001-4363-8448-2ff2394c0c7d)
+
