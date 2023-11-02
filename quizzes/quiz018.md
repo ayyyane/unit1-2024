@@ -11,19 +11,18 @@
 ## solution
 ```.py
 def get_truth():
-  a,b,c = 0,0,0
-  a_count,b_count = 0,0
-  out = "| A | B | C |\n"
-  for x in range(8):
-    a_count += 1
-    b_count += 1
-    c = not c
-    if a_count%4 == 0:
-      a = not a
-    if b_count%2 == 0:
-      b = not b
-    out += f"| {int(a)} | {int(b)} | {int(c)} |\n"
-  return out
+    a,b,c = 1,1,1
+    out= "| A | B | C |"
+    for x in range(8):
+        c = not c
+        if x % 2 == 0:
+            b = not b
+        if x % 4 == 0:
+            a = not a
+        out += f"\n| {int(a)} | {int(b)} | {int(c)} |"
+    return out
+print(get_truth())
+
 
 ```
 
