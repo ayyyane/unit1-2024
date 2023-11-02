@@ -1,10 +1,11 @@
 # quiz018
 
 ## prompt
+<img width="1470" alt="Screenshot 2023-11-02 at 12 37 09" src="https://github.com/ayyyane/unit1-2024/assets/142702159/c69019fa-766b-462e-a20c-9baa58ada5bd">
+
 
 ## flowchart
 <img width="645" alt="Screenshot 2023-10-25 at 17 51 12" src="https://github.com/ayyyane/unit1-2024/assets/142702159/df5a2bfe-b83e-4b18-a4de-312c26e4b912">
-
 
 
 ## solution
