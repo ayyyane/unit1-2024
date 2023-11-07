@@ -1,9 +1,12 @@
 ## quiz019
 
+## quiz019a
+
 ## prompt
 <img width="1470" alt="Screenshot 2023-11-02 at 12 41 31" src="https://github.com/ayyyane/unit1-2024/assets/142702159/6b6d26f4-fdbe-4473-b352-77d826df8e8d">
 
 ## flowchart
+
 
 ## solution
 ```.py
@@ -42,3 +45,10 @@ print(truth_table())
 ```
 
 ## evidence
+<img width="700" alt="Screenshot 2023-11-07 at 17 36 17" src="https://github.com/ayyyane/unit1-2024/assets/142702159/ab7da4f9-3b25-41ba-ac8b-e09ccfc4957f">
+
+
+
+## quiz019b
+
+![IMG_1004](https://github.com/ayyyane/unit1-2024/assets/142702159/2e03a258-3b21-4083-b741-2b7476804826)
